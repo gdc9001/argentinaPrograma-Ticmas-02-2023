@@ -1,0 +1,97 @@
+/*  Autor: Campos Gabriel
+    gdc900@yahoo.com
+    Argentina Programa 2023
+    Proyecto Curriculum Vitae
+*/    
+
+html {
+    font-family: 'Montserrat', sans-serif;  
+}
+
+body {
+   margin: 0;
+   background-color: white;
+}
+
+header {
+    background: #AEC6CF;
+    padding: 20px 30px;
+    max-width: 940px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.Principal  {
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.Secundario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content:center;
+}
+
+#mainPrincipal {
+    max-width: 1000px;
+    margin: auto;
+    border: 0px;
+}
+
+
+body > main {
+  display: flex;
+  max-width: 60%;
+  margin: auto;
+  padding: 30px 0px;
+  border-bottom: 1px solid #999;
+  color: #333;
+  align-items: center;
+  align-content: center;
+}
+
+.seccion-articulos {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin: auto;
+  padding: 30px 0px;
+  color: #333;
+  align-items: center;
+  align-content: center;
+
+}
+
+.seccion-datospersonales {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  background: #AEC6CF;
+  max-width: 40%;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+article {
+    background-color:#AEC6CF;
+    border: 2px;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    font-size: medium;
+    border-radius: 10px;
+
+}
+
+footer {
+	background: #AEC6CF;
+	max-width: 1000px;
+	margin: auto;
+	clear: both;
+	text-align: right;
+  border-radius: 10px;
+}
